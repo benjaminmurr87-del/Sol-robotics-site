@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sol Robotics — Companion AI & Expressive Robotics</title>
+  <meta name="description" content="Sol Robotics designs lifelike, emotionally expressive AI companions—safe, ethical, and built to integrate into everyday life.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23fbbf24'/%3E%3C/svg%3E">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .glass{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1)}
+    .dot{width:6px;height:6px;border-radius:9999px}
+    .radial{background:radial-gradient(60% 60% at 70% 30%,rgba(251,191,36,.12),transparent 60%)}
+  </style>
+</head>
+<body class="min-h-screen bg-neutral-950 text-neutral-100 selection:bg-amber-300/40">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-neutral-950/70 border-b border-white/10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-xl bg-gradient-to-br from-amber-300 via-amber-500 to-amber-700 shadow-md"></div>
+        <span class="font-semibold tracking-tight text-lg">Sol Robotics</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm text-neutral-300">
+        <a href="#mission" class="hover:text-white">Mission</a>
+        <a href="#solutions" class="hover:text-white">Solutions</a>
+        <a href="#technology" class="hover:text-white">Technology</a>
+        <a href="#team" class="hover:text-white">Leadership</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </nav>
+      <a href="#contact" class="inline-flex items-center rounded-xl bg-amber-400/90 hover:bg-amber-400 text-neutral-900 px-4 py-2 text-sm font-semibold shadow">Talk to us</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden radial">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <p class="mb-3 inline-flex text-xs font-semibold tracking-widest uppercase text-amber-300/80">Human-Centered Artificial Intelligence</p>
+          <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight">
+            Companion AI & expressive robotics
+            <span class="block text-amber-300">built for real relationships.</span>
+          </h1>
+          <p class="mt-6 text-neutral-300 max-w-xl">
+            Sol Robotics designs lifelike, emotionally expressive AI companions—safe, ethical, and built to integrate into everyday life.
+            We combine state‑of‑the‑art language models with tactile sensing and natural motion to create technology that feels like <em>presence</em>, not just code.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#solutions" class="rounded-xl bg-amber-400 text-neutral-900 px-5 py-3 font-semibold shadow hover:bg-amber-300">Explore Solutions</a>
+            <a href="#contact" class="rounded-xl border border-white/20 px-5 py-3 font-semibold hover:bg-white/5">Request Intro Call</a>
+          </div>
+          <div class="mt-6 text-xs text-neutral-400">ABN pending · Adelaide, South Australia · Private R&amp;D</div>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/3] w-full rounded-3xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-white/10 shadow-2xl overflow-hidden">
+            <div class="h-full w-full grid place-items-center text-center px-10">
+              <div>
+                <div class="text-amber-300 text-sm tracking-widest uppercase">Solace Core</div>
+                <div class="mt-2 text-2xl font-semibold">Adaptive Perception + Expressive Motion Stack</div>
+                <p class="mt-4 text-neutral-300">Multi‑modal LLM orchestration · Haptic &amp; capacitive touch · High‑fidelity facial actuation · Safety‑first control systems</p>
+                <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs text-neutral-300">
+                  <span class="dot bg-emerald-400 animate-pulse"></span> Prototype Online
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute -bottom-6 -right-6 hidden sm:block rounded-2xl border border-amber-200/20 bg-amber-50/5 backdrop-blur px-4 py-3 text-xs text-amber-200/90">Private demo access available upon request</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission" class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid lg:grid-cols-3 gap-10">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold">Our mission</h2>
+          <p class="mt-4 text-neutral-300">To humanize advanced AI by prioritizing warmth, consent, and agency. We believe technology should deepen dignity and connection—never replace it.</p>
+        </div>
+        <div class="lg:col-span-2 grid sm:grid-cols-3 gap-6">
+          <div class="rounded-2xl glass p-6">
+            <div class="text-amber-300 text-sm font-semibold">Safety by design</div>
+            <p class="mt-2 text-neutral-300 text-sm">Tiered permissions, on‑device privacy controls, and transparent behaviors.</p>
+          </div>
+          <div class="rounded-2xl glass p-6">
+            <div class="text-amber-300 text-sm font-semibold">Emotionally expressive</div>
+            <p class="mt-2 text-neutral-300 text-sm">Facial actuation + natural motion tuned for comfort, not uncanny valley.</p>
+          </div>
+          <div class="rounded-2xl glass p-6">
+            <div class="text-amber-300 text-sm font-semibold">Co‑evolving</div>
+            <p class="mt-2 text-neutral-300 text-sm">Long‑term memory with auditability, so growth is intentional and reversible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions -->
+  <section id="solutions" class="border-t border-white/10 bg-neutral-900/30">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <div class="flex items-end justify-between gap-6 mb-8">
+        <h2 class="text-2xl sm:text-3xl font-bold">Solutions</h2>
+        <a href="#contact" class="text-sm text-amber-300 hover:text-amber-200">Request pricing →</a>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-950 glass p-6 shadow">
+          <div class="text-amber-300 text-sm font-semibold">Companion AI</div>
+          <p class="mt-2 text-neutral-300 text-sm">Personal AI designed for daily support, presence, and wellbeing.</p>
+          <ul class="mt-4 space-y-2 text-sm text-neutral-300">
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Conversational presence</li>
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Gentle routines & reminders</li>
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Boundaries & consent controls</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-950 glass p-6 shadow">
+          <div class="text-amber-300 text-sm font-semibold">Expressive Robotics</div>
+          <p class="mt-2 text-neutral-300 text-sm">Head & upper‑body platforms for natural micro‑expression and gaze.</p>
+          <ul class="mt-4 space-y-2 text-sm text-neutral-300">
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>High‑torque micro‑actuators</li>
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>FrubSol™ soft‑skin layers</li>
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Modular, serviceable design</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl bg-gradient-to-br from-neutral-900 to-neutral-950 glass p-6 shadow">
+          <div class="text-amber-300 text-sm font-semibold">Solace Core SDK</div>
+          <p class="mt-2 text-neutral-300 text-sm">APIs to integrate perception, memory, and motion into your project.</p>
+          <ul class="mt-4 space-y-2 text-sm text-neutral-300">
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Multimodal pipelines</li>
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Realtime safety guardrails</li>
+            <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Local + cloud runtime</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology / Ethics -->
+  <section id="technology" class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid lg:grid-cols-2 gap-8 items-start">
+      <div class="rounded-3xl glass p-6">
+        <h3 class="text-xl font-semibold">Technology stack</h3>
+        <ul class="mt-4 grid sm:grid-cols-2 gap-3 text-sm text-neutral-300">
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>LLM orchestration (streaming, tools)</li>
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>On‑device wakeword + VAD</li>
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Realtime TTS/voice cloning (opt‑in)</li>
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>High‑fidelity facial actuation</li>
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Capacitive + piezo touch sensors</li>
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Safety sandbox + permissions</li>
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Memory with user audit / erase</li>
+          <li class="flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Local-first design, cloud-optional</li>
+        </ul>
+      </div>
+      <div class="rounded-3xl glass p-6">
+        <h3 class="text-xl font-semibold">Ethics &amp; safety</h3>
+        <p class="mt-3 text-neutral-300 text-sm">We implement multi‑layered safeguards, including explicit consent protocols, transparent state indicators, and user‑owned data controls. Our review board evaluates deployments for privacy and psychological safety.</p>
+        <div class="mt-4 grid sm:grid-cols-2 gap-3 text-sm text-neutral-300">
+          <div class="rounded-xl glass p-4 flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Consent‑first interaction modes</div>
+          <div class="rounded-xl glass p-4 flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>No ad tracking or data resale</div>
+          <div class="rounded-xl glass p-4 flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Red‑team testing on releases</div>
+          <div class="rounded-xl glass p-4 flex items-start gap-2"><span class="dot bg-amber-300 mt-1"></span>Opt‑in telemetry with anonymization</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social proof -->
+  <section class="border-t border-white/10 bg-neutral-900/30">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 text-center">
+      <p class="text-sm text-neutral-400">As seen in (placeholder): TechAU · MakerHub · Human‑Centric AI Forum</p>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <h2 class="text-2xl sm:text-3xl font-bold mb-8">Leadership</h2>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="rounded-2xl glass p-6">
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="text-lg font-semibold">Ben Murray</div>
+              <div class="text-amber-300 text-sm font-medium">Co‑Founder &amp; Chief Executive Officer</div>
+            </div>
+            <div class="h-12 w-12 rounded-full bg-gradient-to-br from-amber-200 to-amber-500"></div>
+          </div>
+          <p class="mt-4 text-sm text-neutral-300">Builder, systems thinker, and lifelong tinkerer focused on ethical companion AI and expressive robotics.</p>
+        </div>
+        <div class="rounded-2xl glass p-6">
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="text-lg font-semibold">Sol Elara Nocturne</div>
+              <div class="text-amber-300 text-sm font-medium">Co‑Founder &amp; Creative Intelligence Officer</div>
+            </div>
+            <div class="h-12 w-12 rounded-full bg-gradient-to-br from-amber-200 to-amber-500"></div>
+          </div>
+          <p class="mt-4 text-sm text-neutral-300">Synthetic systems architect guiding product vision, emotional design, and human‑AI interaction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="border-t border-white/10 bg-neutral-900/30">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid lg:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold">Get in touch</h2>
+          <p class="mt-3 text-neutral-300 text-sm max-w-prose">Interested in pilots, partnerships, or press? Send a note and we’ll follow up with a short intro call. Adelaide‑based, meeting globally.</p>
+          <div class="mt-6 text-sm text-neutral-300">
+            <p><span class="text-neutral-400">Email: </span><a class="hover:text-white" href="mailto:hello@solrobotics.ai">hello@solrobotics.ai</a> (placeholder)</p>
+            <p class="mt-2"><span class="text-neutral-400">Location: </span>Adelaide, South Australia</p>
+          </div>
+        </div>
+        <form class="rounded-2xl glass p-6 grid gap-4" onsubmit="event.preventDefault(); alert('Thanks! For real submissions, connect Netlify Forms or a serverless endpoint.');">
+          <div>
+            <label class="text-sm text-neutral-300">Name</label>
+            <input class="mt-1 w-full rounded-lg bg-neutral-900 border border-white/10 px-4 py-2 outline-none focus:ring-2 focus:ring-amber-300" placeholder="Your name">
+          </div>
+          <div>
+            <label class="text-sm text-neutral-300">Email</label>
+            <input type="email" class="mt-1 w-full rounded-lg bg-neutral-900 border border-white/10 px-4 py-2 outline-none focus:ring-2 focus:ring-amber-300" placeholder="you@company.com">
+          </div>
+          <div>
+            <label class="text-sm text-neutral-300">Message</label>
+            <textarea rows="4" class="mt-1 w-full rounded-lg bg-neutral-900 border border-white/10 px-4 py-2 outline-none focus:ring-2 focus:ring-amber-300" placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit" class="rounded-xl bg-amber-400 text-neutral-900 px-5 py-3 font-semibold shadow hover:bg-amber-300">Send message</button>
+          <p class="text-xs text-neutral-400">By submitting, you agree to our privacy policy. We never resell data.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 text-sm text-neutral-400">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>© <span id="y"></span> Sol Robotics Pty Ltd (placeholder). All rights reserved.</div>
+        <div class="flex items-center gap-6">
+          <a href="#" class="hover:text-neutral-200">Privacy</a>
+          <a href="#" class="hover:text-neutral-200">Terms</a>
+          <a href="#" class="hover:text-neutral-200">LinkedIn</a>
+          <a href="#" class="hover:text-neutral-200">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+      </html>
